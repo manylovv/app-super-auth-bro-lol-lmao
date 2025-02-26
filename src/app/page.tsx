@@ -1,5 +1,9 @@
-import Image from 'next/image';
+import SignIn from '@/components/sign-in';
 
 export default function Home() {
-  return <div>home page hello there</div>;
+  return (
+    <div className="h-screen flex items-center justify-center">
+      <SignIn />
+    </div>
+  );
 }
